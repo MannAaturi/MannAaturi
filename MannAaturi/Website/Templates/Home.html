@@ -1,0 +1,99 @@
+{% extends 'Basic.html' %}
+{% load embed_video_tags %}
+
+{% load static %}
+{% block css %}
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'Basic.css' %}">
+<link rel="stylesheet" href="{% static 'Home.css' %}">
+{% endblock css %}
+
+{% block body %}
+
+<body>
+    <h2>Welcome To <b><span>Mann Aaturi</span></b></h2>
+
+    <p class="intro">Are you searching for pushtimargiya content which is
+        not available on youtube or internet ? Check out this<br>
+        website. We have kept the best videos available on our
+        channel at this website in more organised way.<br>
+        You will get many free PDFs as resource to download.<br>
+        Mann Aaturi is our attempt to make the amazing content reach
+        to more and more Vaishnavas and do more<br>
+        and more Satsang.</p>
+
+    <a href="/videos" class="btn_videos">Explore Videos</a>
+    <a href="/pdfs" class="btn_videos">Explore PDFs</a>
+
+    <img src="https://i.ibb.co/fvngMGq/icon.jpg" alt="icon" class="icon">
+
+
+    <div class="testimonials">
+        <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="https://yt3.ggpht.com/Yi1iYmEVDVmUTgq1UQWsiPPL59akU2URRB1CoijBCcgjZaP0oHqnL7PHy9_FoY8FToSWvAjamw=s176-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                        <div class="name">Jai Shree Krishn</div>
+                        <p>
+                            શ્રી હરિરાયજી મહાપ્રભુજીની કૃપાથી આપને સત્સંગ ખુબ ફલિત થયુ છે..
+                            શ્રીયમુનાજીથી એજ વિનંતી કે આપ બધાને ખુબ ખુબ સેવા સત્સંગ સ્મરણમા વૃદ્ધિ થાય
+                            "મન આતુરી" ચૈનલ દ્વારા ખુબ ખુબ ખુબજ પુષ્ટિમાર્ગનો ખજાનો મયલો છે
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu_hDedTtF7rixInmPwPKIezEEG4BgViGUv4Bg=s88-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                        <div class="name">Geeta Veru</div>
+                        <p>
+                            Tamaro aavaj kubaj sundar 6 mane aevu lagyu ke jane hu vrundavan ma chu
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu9IjXe6H7eEyBF9VMb1kiLnlbY1VjAx6WjRqmXEHg=s48-c-k-c0x00ffffff-no-rj"
+                            alt="">
+                        <div class="name">Gaming With Manas</div>
+                        <p>
+                            Aap shree na mukhe thi j pan satsang sabhadiye e man ne thakorji sudhi pohochava vadhre
+                            aatur kare che
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+{% endblock body %}
+
+
+{% block js %}
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+{% endblock js %}
+
+{% block footer %}
+<hr>
+<div class="footer">
+    <h6>Developer Contact : <span>radhasahachari412@gmail.com</span> &nbsp; &nbsp;Email for Website Making Order</h6>
+</div>
+{% endblock footer %}

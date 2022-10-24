@@ -1,0 +1,35 @@
+.navigation1 {
+    margin-left: 750px;
+}
+
+.navigation2 {
+    margin-left: 800px;
+}
+
+.nav-link {
+    font-size: 21px;
+    background-color: #009bce;
+    border-radius: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    background-color: #7558ba;
+}
+
+.navbar-brand {
+    font-size: 23px;
+    margin-left: 28px;
+}
+
+@media (max-width:1281px) {
+    .navigation1, .navigation2 {
+        margin-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+}
